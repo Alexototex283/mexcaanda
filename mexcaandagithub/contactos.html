@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - MEXCAANDA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <div class="logo">MEXCAANDA</div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contactos.html" class="active">Contacto</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="contacto">
+    <h2>Contáctanos</h2>
+    <form class="contacto-form" onsubmit="alert('Mensaje enviado correctamente'); return false;">
+        <label>Nombre:</label>
+        <input type="text" required>
+
+        <label>Correo electrónico:</label>
+        <input type="email" required>
+
+        <label>Mensaje:</label>
+        <textarea required></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 MEXCAANDA. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
